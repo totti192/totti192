@@ -20,10 +20,12 @@ ul{
     border-radius: 10px;
     font-weight: bolder;
     box-shadow: 1px 1px gray;
-
 }
 .mainButton:hover{
     cursor: pointer;
     box-shadow: 3px 3px gray;
     transform: scale(1.1);
+.logo{
+    height: 70px;
+
 }
