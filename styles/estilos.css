@@ -11,13 +11,20 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(199, 193, 193);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
 .button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 1px 1px gray; 
+
 }
 .button:hover{
     cursor: pointer;
@@ -48,6 +55,9 @@ ul{
     border: 1px solid grey;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -57,4 +67,11 @@ ul{
 .buscar > input{
     outline: none;
     border: 0px;
+}
+.iconobuscar{
+    color: blue;
+}
+
+.iconobuscar:hover{
+    color: rgb(255, 0, 0);
 }
