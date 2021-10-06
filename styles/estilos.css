@@ -68,10 +68,4 @@ ul{
     outline: none;
     border: 0px;
 }
-.iconobuscar{
-    color: blue;
-}
 
-.iconobuscar:hover{
-    color: rgb(255, 0, 0);
-}
