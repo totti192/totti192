@@ -68,4 +68,18 @@ ul{
     outline: none;
     border: 0px;
 }
-
+.contenedorImagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
+}
+.cartas{
+    display: flex;
+}
+.tipoCarta{
+    margin: 10px;
+}
