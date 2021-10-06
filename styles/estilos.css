@@ -76,10 +76,33 @@ ul{
 .contenedorImagen > img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 .cartas{
     display: flex;
+    margin-bottom: 10px;
 }
 .tipoCarta{
     margin: 10px;
+    background-color: grey;
+    box-shadow: 5px 10px 10px whitesmoke;
+    border-radius: 10px;
+}
+.breedTitle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
